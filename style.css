@@ -1,0 +1,81 @@
+#hero-section {
+  position: relative;
+
+  height: 990px;
+
+  background-color: beige;
+}
+
+#logo {
+  width: 170px;
+  height: 41px;
+  top: 29px;
+}
+
+#menu {
+  font-style: regular;
+  font-size: 18px;
+  line-height: 18px;
+  line-height: 100%;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+ul li a {
+  text-align: center;
+  font-weight: 400;
+}
+
+#hero-title {
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 198px;
+}
+
+ul li h1 {
+  font-size: 72px;
+  font-weight: 900;
+}
+
+#hero-subheading {
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li p {
+  line-height: 27px;
+  font-weight: 400;
+}
+
+#get-started-btn {
+  padding-left: 876px;
+}
+
+#open-new-tabs {
+    height: 742px;
+    background-color: aqua;
+}
+
+#open-tabs-heading {
+    text-align: center;
+    justify-content: center;
+    padding-top: 140px;
+    font-weight: 700;
+    font-size: 72px;
+    font-style: normal;
+}
+
+#logo-button {
+    width: 341.23px;
+    height: 82px;
+    background-color: black;
+}
+
