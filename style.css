@@ -61,7 +61,7 @@ ul li p {
 
 #open-new-tabs {
     height: 742px;
-    background-color: aqua;
+    background-color: #A8FF35;
 }
 
 #open-tabs-heading {
@@ -73,9 +73,48 @@ ul li p {
     font-style: normal;
 }
 
-#logo-button {
-    width: 341.23px;
-    height: 82px;
-    background-color: black;
+.findtrend-btn{
+  display: flex;
+  justify-content: center;
+  padding-top: 60px ;
+  box-shadow: white;
 }
 
+#logo-button {
+  width: 341.23px;
+  height: 82px;
+  background-color: black; 
+  align-items: center;
+  justify-content: center;
+    
+
+}
+
+#logo-button-text{
+  color: white;
+  font-weight: 400;
+  font-size: 23.81px;
+  text-align: center;
+  justify-content: center;
+  width: 230px;
+  height: 28px;
+
+}
+
+#tab-subheading {
+  padding-top: 50px;
+  
+  
+  
+}
+
+div p {
+  text-align: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  
+
+}
