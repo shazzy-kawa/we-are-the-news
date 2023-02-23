@@ -1,9 +1,12 @@
 #hero-section {
   position: relative;
+  
+  
 
   height: 990px;
 
   background-color: beige;
+  justify-content: center;
 }
 
 #logo {
@@ -55,9 +58,7 @@ ul li p {
   font-weight: 400;
 }
 
-#get-started-btn {
-  padding-left: 876px;
-}
+
 
 #open-new-tabs {
     height: 742px;
@@ -117,4 +118,186 @@ div p {
   color: #000000;
   
 
+}
+
+#long-text-section {
+  height: 584px;
+}
+
+#long-text-header {
+position: absolute;
+width: 1160px;
+height: 76px;
+left: 140px;
+top: 1858px;
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 76px;
+color: #000000;
+text-align: left;
+justify-content: center;
+}
+
+#partner-section{
+position: absolute;
+width: 1160px;
+height: 732px;
+left: 140px;
+top: 2366px;
+
+}
+
+#partner-section-header{
+padding-top: 100px;
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 76px;
+color: #000000;
+text-align: center;
+}
+
+#platforms{
+  height: 2209px;
+}
+
+#platform-header{
+padding-top: 500px;
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 76px;
+text-align: center;
+color: #000000;
+}
+
+#tweet1{
+background: url(/images/tweet1.png);
+
+position: absolute;
+width: 800px;
+height: 274px;
+left: 320px;
+top: 3735px;
+}
+
+#tweet2{
+background: url(/images/tweet2.png);
+background-repeat: no-repeat;
+position: absolute;
+width: 800px;
+height: 804px;
+left: 322px;
+top: 4052px;
+
+}
+
+#tweet3 {
+background: url(/images/tweet3.png);
+background-repeat: no-repeat;
+position: absolute;
+width: 800px;
+height: 804px;
+left: 322px;
+top: 4052px;
+
+}
+
+#platform-button {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+gap: 10px;
+
+position: absolute;
+width: 198px;
+height: 57px;
+left: 621px;
+top: 5250px;
+
+background: #000000;
+border-radius: 40px;
+}
+
+#platform-button-text{
+  text-align: inline;
+}
+
+#best-deal-section{
+position: absolute;
+width: 1440px;
+height: 1128px;
+left: 0px;
+top: 5447px;
+
+background: beige;
+}
+
+#best-deal-header{
+padding-top: 140px;
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 76px;
+text-align: center;
+}
+
+#join-us-section{
+position: absolute;
+width: 1440px;
+height: 539px;
+left: 0px;
+top: 6575px;
+
+background: #A8FF35;
+}
+
+#join-headers{
+padding-top: 140px;
+list-style-type: none;
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 112%;
+text-align: center;
+color: #000000;
+}
+
+#join-header-one{
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 112%;
+text-align: center;
+color: #000000;
+}
+
+#join-header-two{
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 112%;
+  text-align: center;
+  color: #87D322;
+  
+}
+
+#join-us-btn{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+gap: 10px;
+position: absolute;
+background: #000000;
+border-radius: 40px;
+}
+
+#footer{
+  height: 100px;
 }
