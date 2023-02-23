@@ -1,14 +1,12 @@
 #hero-section {
   position: relative;
-  
-  
-
   height: 990px;
-
-  background-color: beige;
+  background-color: grey;
   justify-content: center;
 }
-
+.navbar{
+  background-color: none;
+}
 #logo {
   width: 170px;
   height: 41px;
@@ -28,9 +26,22 @@
   justify-content: space-around;
 }
 
+#register-button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 32px;
+gap: 10px;
+background: #FFFFFF;
+border-radius: 40px;
+
+}
+
 ul li a {
   text-align: center;
   font-weight: 400;
+  color: white;
 }
 
 #hero-title {
@@ -39,6 +50,7 @@ ul li a {
   justify-content: center;
   text-align: center;
   padding-top: 198px;
+  color: white;
 }
 
 ul li h1 {
@@ -47,10 +59,21 @@ ul li h1 {
 }
 
 #hero-subheading {
-  list-style-type: none;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+position: absolute;
+width: 580px;
+height: 54px;
+left: 387px;
+top: 384px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+color: white;
+justify-content: center;
+align-items: center;
+padding-top: 100px;
+padding-left: 100px;
 }
 
 ul li p {
@@ -58,11 +81,37 @@ ul li p {
   font-weight: 400;
 }
 
+#get-started-btn{
+display: flex;
+justify-content: center;
 
+}
+
+
+#get-started-button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+gap: 10px;
+background: #A8FF35;
+border-radius: 40px;
+width: 180px;
+height: 57px;
+text-align: center;
+color: #000000;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 140%;
+
+}
 
 #open-new-tabs {
     height: 742px;
     background-color: #A8FF35;
+    
 }
 
 #open-tabs-heading {
@@ -103,8 +152,21 @@ ul li p {
 }
 
 #tab-subheading {
-  padding-top: 50px;
   
+position: absolute;
+width: 666px;
+height: 54px;
+left: 387px;
+top: 1448px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+/* or 27px */
+
+text-align: center;
+
+color: #000000;
   
   
 }
@@ -150,6 +212,7 @@ top: 2366px;
 
 #partner-section-header{
 padding-top: 100px;
+padding-bottom: 100px;
 font-style: normal;
 font-weight: 700;
 font-size: 64px;
@@ -158,12 +221,20 @@ color: #000000;
 text-align: center;
 }
 
-#platforms{
+.card-img-top{
+  justify-content: space-evenly;
+  align-items: space-around;
+  padding: 20px;
+  
+}
+
+#platforms {
   height: 2209px;
+  background-color: #fafafa;
 }
 
 #platform-header{
-padding-top: 500px;
+padding-top: 1000px;
 font-style: normal;
 font-weight: 700;
 font-size: 64px;
@@ -172,6 +243,23 @@ text-align: center;
 color: #000000;
 }
 
+#logo-div{
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  
+}
+
+.platform-logo{
+width: 124px;
+height: 124px;
+left: 444px;
+top: 0px;
+padding: 20px;
+
+background: #FFFFFF;
+border-radius: 8px;
+}
 #tweet1{
 background: url(/images/tweet1.png);
 
@@ -204,14 +292,15 @@ top: 4052px;
 
 }
 
+
+
 #platform-button {
-  display: flex;
+display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 16px 32px;
 gap: 10px;
-
 position: absolute;
 width: 198px;
 height: 57px;
