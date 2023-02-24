@@ -309,6 +309,15 @@ top: 4052px;
 
 }
 
+#tweet3{
+  background: url(../we-are-the-news/tweet1.png);
+  
+  position: absolute;
+  width: 800px;
+  height: 274px;
+  left: 320px;
+  top: 3735px;
+  }
 
 
 
