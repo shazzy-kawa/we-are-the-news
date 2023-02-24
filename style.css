@@ -293,8 +293,7 @@ background: url(../we-are-the-news/tweet1.png);
 justify-content: center;
 width: 800px;
 height: 274px;
-left: 320px;
-top: 3735px;
+
 }
 
 #tweet2{
@@ -311,11 +310,10 @@ top: 4052px;
 #tweet3{
   background: url(../we-are-the-news/tweet1.png);
   
-  justify-content: center;
+ justify-content: center;
   width: 800px;
   height: 274px;
-  left: 320px;
-  top: 3735px;
+  
   }
 
 
