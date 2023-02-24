@@ -1,11 +1,11 @@
 #hero-section {
   position: relative;
   height: 990px;
-  background-color: grey;
+  background-color: black;
   justify-content: center;
 }
 .navbar{
-  background-color: none;
+  background-color: none  ;
 }
 #logo {
   width: 170px;
@@ -76,9 +76,14 @@ padding-top: 100px;
 padding-left: 100px;
 }
 
-ul li p {
+ul li p  {
   line-height: 27px;
   font-weight: 400;
+  
+}
+
+#subheading-text{
+  color: #FFFFFF;
 }
 
 #get-started-btn{
@@ -322,7 +327,7 @@ height: 1128px;
 left: 0px;
 top: 5447px;
 
-background: beige;
+background: #000000;
 }
 
 #best-deal-header{
@@ -332,15 +337,86 @@ font-weight: 700;
 font-size: 64px;
 line-height: 76px;
 text-align: center;
+color: white;
 }
 
+#card-group  {
+display: flex;
+align-items: center;
+padding-top: 50px;
+justify-content: space-evenly;
+justify-items: center;
+
+}
+
+.best-deal-card{
+ 
+display: inline-grid;
+width: 360px;
+height: 640px;
+border-radius: 16px;
+justify-content: space-around;
+padding: 30px;
+}
+
+#card-2 {
+background: #A8FF35;
+}
+
+.deal{
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 100%;
+position: relative;
+color: #000000;
+height: 36px;
+
+}
+
+.deal-subheading{
+position: relative;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+color: #000000;
+text-align: left;
+}
+
+.deal-list{
+  list-style-type: none;
+  text-align: left;
+  justify-content: left;
+  padding-right: 30px;
+}
+
+.free-trial-btn{
+position: flex-end;
+width: 240px;
+height: 58px;
+background: #A8FF35;
+border-radius: 29px;
+text-align: center;
+
+}
+
+
+.free-trial-btn-black {
+  position: end;
+  width: 240px;
+  height: 58px;
+  background: #000000;
+  border-radius: 29px;
+  text-align: center;
+  
+  }
 #join-us-section{
 position: absolute;
 width: 1440px;
 height: 539px;
 left: 0px;
 top: 6575px;
-
 background: #A8FF35;
 }
 
@@ -375,7 +451,13 @@ color: #000000;
   
 }
 
+#join-button{
+  display: flex;
+  justify-content: center;
+}
+
 #join-us-btn{
+position: relative;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -385,7 +467,10 @@ gap: 10px;
 position: absolute;
 background: #000000;
 border-radius: 40px;
+justify-self: center;
 }
+
+
 
 #footer{
   height: 100px;

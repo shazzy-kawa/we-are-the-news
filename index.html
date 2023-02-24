@@ -83,7 +83,7 @@
 
         <div id="hero-subheading">
             
-            <p> Don't let your computer memories consume all of those browser tabs.
+            <p id="subheading-text"> Don't let your computer memories consume all of those browser tabs.
              Findtrend lets you gather all of your favourite websites into one place.</p>
             
         <div>
@@ -223,15 +223,17 @@
 
     <section id="best-deal-section">
         <h1 id="best-deal-header"> Get your best deal</h1>
-        <p> Monthly        Yearly</p>
+    
+    
+    <div id="card-group">
 
-        <div class="card" style="width: 18rem;">
+        <div class="card best-deal-card" style="width: 18rem;">
             <div class="card-body">
-              <h5 class="card-title">Personal</h5>
-              <p>Special first packet for all</p>
-              <p>--------------------------------</p>
+              <h5 class="card-title deal">Personal</h5>
+              <p class="deal-subheading">Special first packet for all</p>
+              <p>-----------------------------</p>
               <p class="card-text"> $8 /Month</p>
-              <ul>
+              <ul class="deal-list">
                 <li>
                     ✓ Up to 5 pages for each group
                 </li>
@@ -242,16 +244,16 @@
                     ✓ 5 days group pages saved
                 </li>
               </ul>
-              <a href="#" class="btn btn-primary"> Start Free Trial</a>
+              <a href="#" class="btn btn-primary free-trial-btn"> Start Free Trial</a>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
+          <div class="card best-deal-card" style="width: 18rem;" id="card-2">
             <div class="card-body">
-              <h5 class="card-title">Regular</h5>
-              <p> Recommended for personal pro</p>
-              <p>--------------------------------</p>
+              <h5 class="card-title deal">Regular</h5>
+              <p class="deal-subheading"> Recommended for personal pro</p>
+              <p>-----------------------------</p>
               <p class="card-text"> $20 /Month</p>
-              <ul>
+              <ul class="deal-list">
                 <li>
                     ✓Up to 15 pages each group
                 </li>
@@ -266,16 +268,16 @@
                 </li>
                 
               </ul>
-              <a href="#" class="btn btn-primary">Start Free Trial</a>
+              <a href="#" class="btn btn-primary free-trial-btn-black">Start Free Trial</a>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
+          <div class="card best-deal-card" style="width: 18rem;">
             <div class="card-body">
-              <h5 class="card-title">Premium</h5>
-              <p>Packet for Startup & Company</p>
-              <p>--------------------------------</p>
+              <h5 class="card-title deal">Premium</h5>
+              <p class="deal-subheading">Packet for Startup & Company</p>
+              <p>-----------------------------</p>
               <p class="card-text">$48 /Month</p>
-              <ul>
+              <ul class="deal-list">
                 <li>
                     ✓Unlimited group pages
                 </li>
@@ -295,9 +297,10 @@
                     ✓30 Days group pages saved
                 </li>
               </ul>
-              <a href="#" class="btn btn-primary">Start Free Trial</a>
+              <a href="#" class="btn btn-primary free-trial-btn">Start Free Trial</a>
             </div>
           </div>
+     </div>
          
     </section>
 
@@ -311,9 +314,12 @@
             <h1 id="join-header-two">more trending topics</h1>
         </li>
     </ul>
+
+<div id="join-button">
     <button type="button" class="btn btn-primary btn-lg" id="join-us-btn">
-        <a id="join-us-text">Join Now</a>
+        <a id="join-us-text" id="join-us-button">Join Now</a>
      </button>
+</div>
 
 </section>
 
