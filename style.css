@@ -289,7 +289,7 @@ background: #FFFFFF;
 border-radius: 8px;
 }
 #tweet1{
-background: url(../tweet\ 1.png);
+background: url(//tweet1.png);
 
 position: absolute;
 width: 800px;
@@ -299,7 +299,7 @@ top: 3735px;
 }
 
 #tweet2{
-background: url(../tweet\ 2.png);
+background: url(../we-are-the-news/tweet2.png);
 background-repeat: no-repeat;
 position: absolute;
 width: 800px;
@@ -310,7 +310,7 @@ top: 4052px;
 }
 
 #tweet3 {
-background: url(../tweet\ 3.png);
+background: url(./tweet3.png);
 background-repeat: no-repeat;
 position: absolute;
 width: 800px;
